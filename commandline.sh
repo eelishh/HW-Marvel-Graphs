@@ -1,8 +1,7 @@
 #!/bin/bash
 
 echo "What is the most popular pair of heroes (often appearing together in the comics)?"
-awk -F, '$1 != $2' hero-network.csv > hero-network-new.csv # remove lines where hero1 == hero2 in hero-network.csv
-sort hero-network-new.csv | uniq -c | sort -nr | head -n 1
+awk -F, '$1 != $2' hero-network.csv | sort  | uniq -c | sort -nr | head -n 1
 
 echo " "
 
