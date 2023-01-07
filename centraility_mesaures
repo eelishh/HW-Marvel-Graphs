@@ -1,5 +1,5 @@
 # centrality mesaures 
-
+# there are the functions about centrality mesaures, that we did by scratch. We didn't use it because that was taking too much time, so we choose to calculate by the nx library.
 def BFS(G, s, t):
   queue = deque([s])
   visited = set()
