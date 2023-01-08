@@ -10,5 +10,5 @@ cut -d, -f 1 edges.csv | sort | uniq -c | sort -nr| head -n 10
 
 echo " "
 
-echo "The average number of heroes in comics:"
-awk -F',' '{heroes_per_comic[$1]++; total_heroes++} END{for (comic in heroes_per_comic) num_comics++; mean=total_heroes/num_comics; printf "average number of heroes in comic: %d\n", mean}' edges.csv
+echo "The average number of heroes in comics is:"
+awk -F',' '{heroes_per_comic[$2]++; total_heroes++} END{ mean=total_heroes/length(heroes_per_comic); print mean}' edges.csv
