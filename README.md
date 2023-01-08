@@ -20,8 +20,7 @@ The goal of the homework is to improve the familiarity with the creation, manipu
 * The file `main.ipynb` contains a Jupyter Notebook with tasks 1-3 and the Algorithmic Question. In particular, here you can find the "controller_system" function where choosing a functionality and some parameters as inputs you can view the results of the functionality on the graphs. 
 * The file `CommandLine.sh` contains the answer to Command Line Question in a .sh bash executable file.
 * The folder `img` contains the file `CommandLineScreenShot.png`, an image showing the results of the Command Line Question runned.
-* The file `measures_centrality.py` contains the functions about functionality2.
-* The file `functions.py` contains the functions about functionality1, functionality3 and functionality4.
+* The file `functions.py` contains the functions used in functionality1, functionality3 and functionality4.
 
 ## Additional Link for Visualization 
 
