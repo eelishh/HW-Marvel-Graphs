@@ -16,7 +16,7 @@ The goal of the homework is to improve the familiarity with the creation, manipu
 
 ## Files Contained
 
-* The file `main.ipynb` contains a Jupyter Notebook with tasks 1-3 and the Algorithmic Question of Homework 5.
+* The file `main.ipynb` contains a Jupyter Notebook with tasks 1-3 and the Algorithmic Question.
 * The file `CommandLine.sh` contains the answer to Command Line Question in a .sh bash executable file.
 * The fine `measures_centrality.py` contains the functions about functionality2.
 * The fine `functions.py` contains the functions about functionality1, functionality3 and functionality4.
