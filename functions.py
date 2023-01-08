@@ -29,9 +29,9 @@ def density_G(G):
 # FUNCTIONS did by scratch for functionality_2
 
 '''
-We did by scratch the functions about centrality mesaures.
-We didn't use it because that was taking too much time, so we choose 
-to calculate the results using the NetworkX library.
+We did by scratch the functions about centrality measures.
+We didn't use them because that were taking too much time, so we choose
+to calculate the results by the NetworkX library.
 '''
 
 def BFS(G, s, t):
