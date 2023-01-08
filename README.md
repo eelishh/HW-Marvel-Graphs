@@ -2,11 +2,12 @@
 
 ## Authors
 
-`Name`: Marina   `Matricola`: 1809715 
+<ul>
+  <li>Marina, 1809715</li>
+  <li>Aurora, 1852791</li>
+  <li>Elisa, 1859043</li>
+</ul>
 
-`Name`: Aurora `Matricola`: 1852791
-
-`Name`: Elisa  `Matricola`: 1859043 
 
 ## Introduction
 
