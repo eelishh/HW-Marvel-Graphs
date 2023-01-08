@@ -26,6 +26,64 @@ def density_G(G):
     m = G.number_of_edges()
     return 2*m/(n*(n-1))
 
+# FUNCTIONS did by scratch for functionality_2
+
+'''
+There are the functions about centrality mesaures, that we did by scratch.
+We didn't use it because that was taking too much time, so we choose 
+to calculate by the NetworkX library.
+'''
+
+def BFS(G, s, t):
+  queue = deque([s])
+  visited = set()
+  while queue:
+    u = queue.popleft()
+    if u not in visited:
+      visited.add(u)
+      for v in G[u]:
+        queue.append(v)
+        if v == t:
+          return visited
+
+  return visited
+
+def fun_betweenness_centrality(G):
+  betweenness = defaultdict(int)
+  for i, s in enumerate(G):
+    if i == 10:
+      break
+    for j, t in enumerate(G):
+      if j == 10:
+        break
+      if s != t:
+        path = BFS(G, s, t)
+        for v in path:
+          betweenness[v] += 1
+  n = len(G)
+  for v in betweenness:
+    betweenness[v] /= (n-1)*(n-2)
+  return betweenness
+
+def fun_degree_centrality(G, node):
+  num_neighbors = len(list(G.neighbors(node)))
+  fun_degree_centrality = num_neighbors / (len(G) - 1)
+  return fun_degree_centrality
+
+def fun_pagerank_centrality(G, alpha=0.85, max_iter=100, tol=1e-6):
+    n = len(G)
+    pagerank = {node: 1/n for node in G}
+    for i in range(max_iter):
+        diff = 0
+        for node in pagerank:
+            rank = sum(pagerank[neighbor] / len(G[neighbor]) for neighbor in G[node])
+            new_rank = (1 - alpha) / n + alpha * rank
+            diff += abs(new_rank - pagerank[node])
+            pagerank[node] = new_rank
+        if diff < tol:
+            break
+    return pagerank
+  
 
 # FUNCTION USED IN functionality_3
 def shortest_path_two_nodes(node_1, node_2, G, list_nodes):
