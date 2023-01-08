@@ -1,16 +1,16 @@
 # ADM-HW5-Group26
 
-`AUTHORS`:
+## Authors
 
 `Name`: Marina   `Matricola`: 1809715 
 `Name`: Aurora `Matricola`: 1852791
 `Name`: Elisa  `Matricola`: 1859043 
 
-`INTRODUCTION`:
+## Introduction
 
-The repository ADM-HW5-Group26 contains the code from Homework 5 for the course of Algorithmic Methods for Data Mining (Master of Data Science 22/23 University of La Sapienza).
+The repository ADM-HW5-Group26 contains the code from Homework 5 for the course of Algorithmic Methods for Data Mining (Master of Data Science 22/23 University of La Sapienza). The goal of the homework is to improve the familiarity with the creation, manipulation and visualization of graphs especially through the [NetworkX](https://networkx.org/) library of Python.
 
-`FILES CONTAINED`:
+## Files Contained
 
 * The file `main.ipynb` contains a Jupyter Notebook with tasks 1-3 and the Algorithmic Question of Homework 5.
 * The file `CommandLine.sh` contains the answer to Command Line Question in a .sh bash executable file.
