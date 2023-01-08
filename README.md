@@ -3,14 +3,16 @@
 ## Authors
 
 `Name`: Marina   `Matricola`: 1809715 
+
 `Name`: Aurora `Matricola`: 1852791
+
 `Name`: Elisa  `Matricola`: 1859043 
 
 ## Introduction
 
 The repository ADM-HW5-Group26 contains the code from Homework 5 for the course of Algorithmic Methods for Data Mining (Master of Data Science 22/23 University of La Sapienza). 
 
-The goal of the homework is to improve the familiarity with the creation, manipulation and visualization of graphs especially through the [NetworkX](https://networkx.org/) library of Python.
+The goal of the homework is to improve the familiarity with the creation, manipulation and visualization of graphs using the [NetworkX](https://networkx.org/) library of Python.
 
 ## Files Contained
 
